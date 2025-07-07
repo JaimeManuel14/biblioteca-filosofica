@@ -1,0 +1,46 @@
+.book-detail {
+  padding: 2rem;
+  background-color: #e0e0e0ec;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.book-detail__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #555554;
+}
+
+.book-detail__image {
+  max-width: 200px;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.book-detail__info p {
+  margin: 0.5rem 0;
+}
+
+.book-detail__criticas {
+  margin-top: 1rem;
+}
+
+.book-detail__criticas ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.book-detail__alquilar {
+  margin-top: 1.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #e07731;
+  color: rgb(240, 238, 238);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.book-detail__alquilar:hover {
+  background-color: #8180f1;
+  color:#f5f4f3
+}

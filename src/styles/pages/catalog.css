@@ -1,0 +1,27 @@
+.catalog {
+  padding: 2rem;
+  background-color: #e4d2d2;
+}
+
+.catalog__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: chocolate;
+}
+
+.catalog__filters {
+  margin-bottom: 1.5rem;
+}
+
+
+.catalog__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  /* gap: 1rem; */
+  gap: 2rem 1rem; /* 2rem vertical, 1rem horizontal */
+}
+
+.catalog__pagination {
+  margin-top: 2rem;
+  text-align: center;
+}

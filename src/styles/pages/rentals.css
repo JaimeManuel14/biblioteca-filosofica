@@ -1,0 +1,22 @@
+.rentals {
+  padding: 2rem;
+  background-color: #f7e6e6;
+}
+
+.rentals__title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: chocolate;
+}
+
+.rentals__empty {
+  font-style: italic;
+  color: #888;
+}
+
+.rentals__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}

@@ -1,0 +1,23 @@
+.rental-card {
+  padding: 1rem;
+  border: 1px solid #bdbcbc;
+  border-radius: 8px;
+  background-color: #eeeabb;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.rental-card__title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.rental-card__author,
+.rental-card__date,
+.rental-card__plazo,
+.rental-card__fecha-fin {
+  margin: 0.25rem 0;
+}
+
+.rental-card__extension {
+  margin-top: 1rem;
+}

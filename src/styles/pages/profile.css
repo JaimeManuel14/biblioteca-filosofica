@@ -1,0 +1,32 @@
+.profile {
+  padding: 2rem;
+  background-color: #d5e1f3;
+}
+
+.profile__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: rgb(13, 101, 202);
+}
+
+.profile__info p {
+  margin: 0.25rem 0;
+}
+
+.profile__subtitle {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.profile__empty {
+  font-style: italic;
+  color: #888585;
+  margin-top: 1rem;
+}
+
+.profile__history {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+  background-color: rgb(240, 243, 187);
+}
