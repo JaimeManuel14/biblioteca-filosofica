@@ -1,6 +1,7 @@
 // src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './styles/layout.css';
 
 // Páginas
 import Home from './pages/home/home';
@@ -24,17 +25,19 @@ function App() {
       <BooksProvider>
         <RentalProvider>
           <Router>
-            <Header />
-            <main style={{ minHeight: '80vh', padding: '1rem' }}>
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/catalog" element={<Catalog />} />
-                <Route path="/book/:id" element={<BookDetail />} />
-                <Route path="/rentals" element={<Rentals />} />
-                <Route path="/profile" element={<Profile />} />
-              </Routes>
-            </main>
-            <Footer />
+            <div className='app-layout'>
+              <Header />
+              <main className="app-content">
+                <Routes>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/catalog" element={<Catalog />} />
+                  <Route path="/book/:id" element={<BookDetail />} />
+                  <Route path="/rentals" element={<Rentals />} />
+                  <Route path="/profile" element={<Profile />} />
+                </Routes>
+              </main>
+              <Footer />
+            </div>
           </Router>
         </RentalProvider>
       </BooksProvider>
