@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# 📚 Biblioteca Filosófica — React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicación desarrollada por **Jaime Cutipa** como parte del curso **Desarrollo Web Integral** de la **Maestría en Ingeniería de Software y Sistemas Informáticos** en la **Universidad Internacional de La Rioja (UNIR)**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🧠 Descripción
 
-### `npm start`
+Este proyecto es una aplicación web desarrollada con **React**, que simula un sistema de biblioteca enfocado en libros filosóficos. Permite visualizar, buscar, alquilar y extender el préstamo de libros. El sistema está diseñado con enfoque académico, modular y orientado a componentes reutilizables, siguiendo las buenas prácticas de desarrollo frontend.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Funcionalidades principales
 
-### `npm test`
+- 📘 Visualización de libros destacados (filtrados por atributo `mejor`)
+- 🔍 Buscador dinámico por título, autor e ISBN-13
+- 📚 Catálogo paginado de libros (9 por página)
+- 📖 Detalle completo de cada libro
+- 📦 Registro de libros alquilados
+- 🔁 Extensión de plazo de préstamo
+- 💬 Mensajes emergentes para confirmar acciones
+- 📱 Diseño adaptable y estilizado con metodología **BEM**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧩 Estructura técnica
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Framework:** React (CRA)
+- **Routing:** React Router DOM (`react-router-dom`)
+- **Estado compartido:** Context API + Hooks personalizados
+- **Estilos:** CSS modular con convención BEM
+- **Componentes funcionales:** 15+
+- **Hooks personalizados:** `useBooks`, `useRentals`, `useSearch`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🗂️ Estructura de carpetas
 
-### `npm run eject`
+```
+biblioteca-online/
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── data/
+│   ├── hooks/
+│   ├── pages/
+│   ├── styles/
+│   ├── App.js
+│   └── index.js
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔧 Instalación y ejecución local
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/jaimecutipa/biblioteca-filosofica.git
+cd biblioteca-filosofica
+npm install
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🌐 Despliegue
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+La aplicación está desplegada en **Vercel**:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🔗 [https://biblioteca-filosofica.vercel.app](https://biblioteca-filosofica.vercel.app)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 👨‍💻 Autor
 
-### Analyzing the Bundle Size
+**Jaime Cutipa**  
+Estudiante de la Maestría en Ingeniería de Software y Sistemas Informáticos  
+Universidad Internacional de La Rioja (UNIR)  
+Curso: Desarrollo Web Integral  
+Año: 2025
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📝 Licencia
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este proyecto tiene fines educativos y académicos.
